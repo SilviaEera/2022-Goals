@@ -53,7 +53,7 @@ a {
     width: 70%;
 }
 
-.header-text-block .explore-btn {
+.explore-btn {
     color: #fff;
     font-size: 18px;
     background-color: #FFA07A;
@@ -70,7 +70,7 @@ a {
 }
 
 .header-image .main-img {
-    width: 100%;
+    width: 400px;
 }
 
 
@@ -79,8 +79,111 @@ a {
 .mission .container {
     background-color: #fff;
     padding-top: 50px;
+    padding-bottom: 80px;
+    margin: 0 5%;
 }
 
 .mission .container .mission-heading {
     text-align: center;
+    font-size: 40px;
+    color: #191970;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.mission-heading .colored-text {
+    color: #FFA07A;
+}
+
+.card-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-block .card {
+    width: 26%;
+    padding: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.card .card-img {
+    width: 30%;
+    padding-bottom: 15px;
+}
+
+.img3 {
+    width: 20%;
+    padding-bottom: 35px;
+}
+
+.card .card-heading {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.card .card-info {
+    width: 80%;
+    text-align: justify;
+}
+
+.card1 {
+    background-color: #FFEBCD;
+}
+
+.card2 {
+    background-color: #FAFAD2;
+}
+
+.card3 {
+    background-color: #FFFACD;
+}
+
+
+/* develop css */
+
+.develop .container {
+    background-color: #fff;
+    padding-bottom: 80px;
+}
+
+.develop-content {
+    display: flex;
+}
+
+.image-block {
+    width: 40%;
+    position: relative;
+}
+
+.image-block .circle {
+    width: 40%;
+    padding-top: 80px;
+}
+
+.image-block .coding {
+    width: 70%;
+    position: absolute;
+    top: 0;
+    left: 80px;
+    /* padding-right: 100px; */
+}
+
+.text-block {
+    width: 50%;
+    padding: 100px 0 0 20px;
+}
+
+.text-block .develop-heading {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.develop-info {
+    padding-bottom: 30px;
+    line-height: 25px;
+    width: 90%;
 }
