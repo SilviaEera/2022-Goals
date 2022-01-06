@@ -79,7 +79,7 @@ a {
 .mission .container {
     background-color: #fff;
     padding-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 200px;
     margin: 0 5%;
 }
 
@@ -113,11 +113,6 @@ a {
 .card .card-img {
     width: 30%;
     padding-bottom: 15px;
-}
-
-.img3 {
-    width: 20%;
-    padding-bottom: 35px;
 }
 
 .card .card-heading {
@@ -160,8 +155,9 @@ a {
 }
 
 .image-block .circle {
-    width: 40%;
-    padding-top: 80px;
+    width: 30%;
+    padding-top: 64px;
+    padding-left: 254px;
 }
 
 .image-block .coding {
@@ -169,7 +165,6 @@ a {
     position: absolute;
     top: 0;
     left: 80px;
-    /* padding-right: 100px; */
 }
 
 .text-block {
@@ -186,4 +181,167 @@ a {
     padding-bottom: 30px;
     line-height: 25px;
     width: 90%;
+}
+
+
+/* community css */
+
+.community .container {
+    background-color: #fff;
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+
+.community-content {
+    display: flex;
+}
+
+.image-block {
+    width: 40%;
+    position: relative;
+}
+
+.image-block .circle-small {
+    width: 26%;
+    padding-top: 170px;
+    padding-left: 446px;
+}
+
+.image-block .coding {
+    width: 86%;
+    position: absolute;
+    top: -96px;
+    left: 150px;
+}
+
+.text-block {
+    width: 50%;
+    padding: 100px 0 0 20px;
+}
+
+.text-block .community-heading {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.community-info {
+    padding-bottom: 30px;
+    line-height: 25px;
+    width: 84%;
+}
+
+
+/* app css */
+
+.app .container {
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 450px;
+    z-index: 0;
+}
+
+.app-heading {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 130px;
+}
+
+.app-heading .colored-text {
+    color: #FFA07A;
+}
+
+.app-content {
+    z-index: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-content .image-block {
+    width: 50%;
+    position: relative;
+    padding-bottom: 200px;
+}
+
+.cube1 {
+    position: absolute;
+    top: -60px;
+    left: 115px;
+    width: 25%;
+}
+
+.cube2 {
+    position: absolute;
+    top: 300px;
+    left: 430px;
+    width: 18%;
+}
+
+.cube3 {
+    position: absolute;
+    top: 535px;
+    left: 125px;
+    width: 15%;
+}
+
+.app-img {
+    width: 50%;
+    position: absolute;
+    left: 170px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.app-content .text-block {
+    width: 50%;
+}
+
+.app-sub-heading {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.app-sub-heading .block {
+    display: block;
+    line-height: 55px;
+}
+
+.app-sub-heading .colored-text {
+    color: #FFA07A;
+}
+
+.app-info {
+    padding-bottom: 40px;
+    width: 85%;
+    line-height: 25px;
+}
+
+
+/* footer css */
+
+.footer .container {
+    background-color: #191970;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-heading {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Moon Dance', cursive;
+    padding-bottom: 15px;
+}
+
+.footer-heading .colored-text {
+    color: #FFA07A;
+}
+
+.footer-info {
+    color: #fff;
+}
+
+.footer-info .colored-text {
+    color: #FFA07A;
 }
